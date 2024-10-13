@@ -447,7 +447,7 @@ function cantidades(){
 let newWindows
     
 function abrir(){
-    newWindows = window.open("C:/Users/soporte_gruas/Desktop/CESAR/CEGESFULL/VERSION1/index.html","newWindow","width=305 height=800 left=1200 top=0")
+    newWindows = window.open("../VERSION1/index.html","newWindow","width=305 height=800 left=1200 top=0")
 }
 
 
