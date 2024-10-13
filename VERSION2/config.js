@@ -1,6 +1,6 @@
 const elementosHtml = document.getElementById("datos");// donde se mostraran los datos
 const dato1 = document.getElementById("indicador");
-const DataMain = ["52","53","54","55","57","58","60","61","62","63","64","65","67","68","69","70","C1","C2","M2"];
+const DataMain = ["52","53","54","55","57","58","59","60","61","62","63","64","65","67","68","69","70","C1","C2","M2"];
 const options = [
         {
             value: "Inactivo",
