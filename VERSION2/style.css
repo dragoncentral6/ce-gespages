@@ -1,0 +1,282 @@
+body{
+    /*background-color: #FFF;*/
+    background-color: #708090;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.head{
+    background-color: red;
+    width: 310px;
+    overflow: hidden;
+    height: 30px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #063351;
+}
+
+.head > label{
+	color: #FFFF;
+	text-align: center;
+	font-weight: bold;
+	font-family: monospace;
+    font-size: 12px;
+    margin: 5px 6px;
+    float: left;
+}
+.head > a{
+    cursor: pointer;
+    float: right;
+    margin: 5px 6px;
+    color: #FFFF;
+    background-color: rgba(255,255,255,0.3);
+    padding: 2px 3px;
+    border-radius: 5px;
+    transition: .3s;
+}
+.head > a:hover{
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 3px;
+}
+
+/* contenido principal */
+
+.ContenMain{
+    /*background-color: #1A5276;*/
+    background-color: #FFF;
+    width: 300px;
+    height: auto;
+    min-height: 100px;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+    position: relative;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: -1px 1px 5px gray;
+}
+
+/*	inicio seccion de btn navegacion*/
+.slideMenu{    
+    background-color: #CCD1D1;
+    height: 18px;
+    overflow: hidden;
+    border-radius: 3px;
+}
+.slideMenu > nav{
+	text-align: center;
+}
+.slideMenu > nav > a{
+	border-radius: 5px;
+	text-decoration: none;
+	width: 23.3%;
+	display: inline-block;
+	overflow: hidden;
+	margin: 0;
+	padding: 2px 0;
+	color: #000;
+}
+.slideMenu > nav > a:hover{
+	font-weight: bold;
+	background-color: #696969;
+	color: #FFF;
+}
+.showAc{
+	background-color: #58D68D;
+	font-weight: bold;
+}
+.showIn{
+	background-color: #FF0000;
+	font-weight: bold;
+}
+.showRe{
+	background-color: #FFD700;
+	font-weight: bold;
+}
+.showOp{
+	background-color: #00BFFF;
+	font-weight: bold;
+}
+/*	fin seccion de btn navegacion*/
+
+/*	inicio seccion de obtencion de datos*/
+.slideDatos{
+    
+    
+}
+.datos{
+    margin: 1px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.importDat{
+    background-color: #CCD1D1;
+    margin: 2px;
+    width: 80px;
+    padding: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.selectfirst{
+    width: 10px;
+    height: 10px;
+    appearance: none;
+    border-radius: 50%;
+    border: none;
+    font-family: monospace;
+    font-size: 12px;
+    text-align: center;
+}
+.selectfirst option{
+	background-color: white;
+	color: #000;
+	text-transform: capitalize;
+}
+.selectsec{
+	width: 46px;
+	appearance: none;
+	text-align: center;
+	padding: 1px;
+	border: none;
+	border-radius: 3px;
+    font-family: monospace;
+    font-size: 12px;
+    text-align: center;
+}
+.importDat input{
+    width: 74px;
+    margin: 2px;
+    border: none;
+	border-radius: 3px;
+	font-family: monospace;
+    font-size: 12px;
+    text-align: center;
+	/*animation: mover 9s infinite;*/
+}
+
+@keyframes mover{
+	0%{
+		transform: translateX(0);
+	}
+	100%{
+		transform: translateX(-100%);
+	}
+}
+.StateOff{
+    color: #FF0000;
+    background-color: #FF0000;
+}
+.StateOn{
+    color: #00FA9A;
+    background-color: #00FA9A;
+}
+.StateRec{
+    background-color: #FFD700 ;
+    color: #FFD700 ;
+}
+.StateOp{
+    background-color: #29B6F6;
+    color: #00BFFF;
+}
+
+/*	fin seccion de obtencion de datos*/
+
+
+/* inicio  contenedor de informacion  */
+
+.ContentInfo{
+    background-color: #FFF;
+    position: relative;
+    box-shadow: -1px 1px 5px gray;
+    border-radius: 5px;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: bold;
+    height: 39px;
+    overflow: hidden;
+    transition: 500ms;
+}
+.ContentInfo:hover{
+	height: 70px;
+}
+.ContentInfo label{
+	display: block;
+}
+/* fin  contenedor de informacion  */
+
+
+/* inicio  contenedor de operativos  */
+
+.ContentTable{
+    background-color: #FFF;
+    position: relative;
+    box-shadow: -1px 1px 5px gray;
+    border-radius: 5px;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+.title-ContentTable{
+	background-color: #063351;
+	padding: 3px 0;
+	color: #FFF;
+	font-weight: bold;
+	border-radius: 5px 5px 0px 0px;
+}
+.body-table{
+    height: 6em;
+    overflow: auto;
+}
+.body-table::-webkit-scrollbar{
+	width: 5px;
+}
+.body-table::-webkit-scrollbar-thumb{
+	background-color: rgba(192, 192, 192, 0.8);
+	border-radius: 5px;
+}
+.body-table table tr td input{
+    width: 95%;
+    border: none;
+    background-color: rgba(192, 192, 192, 0.3);
+    border-radius: 3px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 12px;
+    font-weight: bold;
+}
+/* fin  contenedor de operativos  */
+
+/* inicio  contenedor del boton cargar  */
+.ContentForm{
+    position: fixed;
+    padding: 2px;
+    bottom: 0%;
+    width: 305px;
+}
+.ContentForm button{
+    width: 100px;
+    background: #FFF;
+    font-weight: bold;
+    height: 5px;
+    overflow: hidden;
+    color: #FFF;
+    border: none;
+    border-radius: 3px;
+    margin-left: 35%;
+    transition:all 0.2s;
+}
+.ContentForm button:hover{
+    cursor: pointer;
+    background-color: green;
+   /* box-shadow: 0px 0px 8px #11c255;*/
+    height: 20px;
+    color: #fff;
+}
+/* fin  contenedor del boton cargar  */
