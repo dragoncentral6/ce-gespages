@@ -69,13 +69,14 @@ body{
 	text-align: center;
 }
 .slideMenu > nav > a{
+	float: left;
 	border-radius: 5px;
 	text-decoration: none;
-	width: 23.3%;
+	width: 20%;
 	display: inline-block;
 	overflow: hidden;
 	margin: 0;
-	padding: 2px 0;
+	padding: 2px 2px;
 	color: #000;
 }
 .slideMenu > nav > a:hover{
