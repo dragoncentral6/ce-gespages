@@ -149,6 +149,11 @@ window.addEventListener('DOMContentLoaded', async() => {
                     const div = document.createElement("div");
 
                     const labelAlias = document.createElement("label");//creando el label
+
+                    // se añade nuevo label para la placa
+                    const labelPlacas = document.createElement("label")
+
+                    
                     const selectEstado = document.createElement("select");// creando los select
                     const selectPosicion = document.createElement("select");//
                     const comentario = document.createElement("input");//creando input comentarios
@@ -165,6 +170,7 @@ window.addEventListener('DOMContentLoaded', async() => {
 
                     //se asignan los datos al label y al input
                     labelAlias.textContent =  paramsDrag.Alias;
+                    labelPlacas.textContent = paramsDrag.Placa;
                     comentario.value = paramsDrag.Descripcion;
                     comentario.setAttribute("data-id", paramsDrag.id);
 
