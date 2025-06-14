@@ -151,7 +151,7 @@ window.addEventListener('DOMContentLoaded', async() => {
                     const labelAlias = document.createElement("label");//creando el label
 
                     // se añade nuevo label para la placa
-                    const labelPlacas = document.createElement("label")
+                    const labelPlacas = document.createElement("label");
 
                     
                     const selectEstado = document.createElement("select");// creando los select
