@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="stylesheet" href="estilos.css">	-->
+    <link rel="stylesheet" href="estilosPruebas.css">
+    <title>Ceges: Gruas Pruebas</title>
+</head>
+<body>
+    <div class="head-page">
+        <label for="">CEGES: GRUAS Pruebas</label>
+        <div class="form-add">
+            <form id="form-add">
+                <label for="">Grua #</label>
+                <input type="text" id="alias" placeholder="ALIAS" required>
+                <input type="text" id="placa" placeholder="PLACA" required>
+                <button id="btn-crear">CREAR</button>
+                <a href="">Editar</a>
+            </form>
+        </div>
+    </div>
+    
+    
+    <div class="nav-radio">
+        <a id="all" class="selec">Todos</a>
+        <a id="Ina">Inactivos</a>
+        <a id="Act">Activos</a>
+        <a id="Ope">Operativos</a>
+        <a id="Rec">Recorridos</a>
+    </div>
+    
+    <div id="list-drag" class="list-drag">
+
+		<div class="resultDrag">
+			<label>52 TZO816</label>
+			<select class="estado-grua Inactivo" data-id="t1To5ck4sTrjwuLBDWKY">
+				<option value="Inactivo">Inactivo</option>
+				<option value="activo">Activo</option>
+				<option value="recorrido">Recorrido</option>
+				<option value="operativo">Operativo</option>
+			</select>
+			<select class="posicion-grua" data-id="t1To5ck4sTrjwuLBDWKY">
+				<option value="-">-</option>
+				<option value="qsy">QSY</option>
+				<option value="ruta">Ruta</option>
+				<option value="patios">Patios</option>
+				<option value="ct">CT</option>
+			</select>
+			<input class="coment-grua" data-id="t1To5ck4sTrjwuLBDWKY">
+		</div>
+
+
+		<div class="resultDrag">
+			<label>53 ZDA614</label>
+			<select class="estado-grua Inactivo" data-id="t1To5ck4sTrjwuLBDWKY">
+				<option value="Inactivo">Inactivo</option>
+				<option value="activo">Activo</option>
+				<option value="recorrido">Recorrido</option>
+				<option value="operativo">Operativo</option>
+			</select>
+			<select class="posicion-grua" data-id="t1To5ck4sTrjwuLBDWKY">
+				<option value="-">-</option>
+				<option value="qsy">QSY</option>
+				<option value="ruta">Ruta</option>
+				<option value="patios">Patios</option>
+				<option value="ct">CT</option>
+			</select>
+			<input class="coment-grua" data-id="t1To5ck4sTrjwuLBDWKY">
+		</div>
+        
+    </div>
+    <script type="module" src="./configPruebas.js"></script>
+</body>
+</html>
+
