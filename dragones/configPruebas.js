@@ -169,7 +169,7 @@ window.addEventListener('DOMContentLoaded', async() => {
 
                     //se asignan los datos al label y al input
                     labelAlias.textContent =  paramsDrag.Alias;
-                    labelPlaca.textContent =  paramsDrag.Placa;
+                    labelPlaca.textContent =  paramsDrag.Placas;
                     comentario.value = paramsDrag.Descripcion;
                     comentario.setAttribute("data-id", paramsDrag.id);
 
@@ -247,6 +247,7 @@ window.addEventListener('DOMContentLoaded', async() => {
 
                     //se asignan los datos al label y al input
                     labelAlias.textContent =  paramsDrag.Alias;
+                    labelPlaca.textContent =  paramsDrag.Placas;
                     comentario.value = paramsDrag.Descripcion;
                     comentario.setAttribute("data-id", paramsDrag.id);
 
@@ -305,6 +306,7 @@ window.addEventListener('DOMContentLoaded', async() => {
 
                     //Añadimos los elementos al Html
                     div.appendChild(labelAlias);
+                    div.appendChild(labelPlaca);
                     div.appendChild(selectEstado);
                     div.appendChild(selectPosicion);
                     div.appendChild(comentario);
