@@ -228,6 +228,7 @@ window.addEventListener('DOMContentLoaded', async() => {
 
                     //Añadimos los elementos al Html
                     div.appendChild(labelAlias);
+                    div.appendChild(labelPlaca);
                     div.appendChild(selectEstado);
                     div.appendChild(selectPosicion);
                     div.appendChild(comentario);
