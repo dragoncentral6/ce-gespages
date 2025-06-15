@@ -169,7 +169,7 @@ window.addEventListener('DOMContentLoaded', async() => {
 
                     //se asignan los datos al label y al input
                     labelAlias.textContent =  paramsDrag.Alias;
-                    labelPlaca.textContent =  paramsDrag.Placas;
+                    labelPlaca.textContent =  paramsDrag.Placa;
                     comentario.value = paramsDrag.Descripcion;
                     comentario.setAttribute("data-id", paramsDrag.id);
 
