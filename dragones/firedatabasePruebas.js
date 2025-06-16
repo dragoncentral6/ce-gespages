@@ -50,7 +50,7 @@ const nameTablebd = "PruebasDragones";
 
 
 //guardar datos
-export const crear = (Alias, Estado, Posicion, Descripcion) => { 
+export const crear = (Alias, Placas, Estado, Posicion, Descripcion) => { 
     addDoc(collection(db, nameTablebd),{Alias, Placa, Estado, Posicion, Descripcion});
 }  
 
